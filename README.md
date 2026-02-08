@@ -23,7 +23,7 @@
 将本仓库放入 Claude Code 的技能目录即可使用：
 
 ```bash
-git clone <仓库地址> ~/.claude/skills/mijia-device-manager
+git clone https://github.com/dean2021/mijia-device-manager ~/.claude/skills/mijia-device-manager
 ```
 
 如果是手动下载压缩包，解压后将目录移动到：
