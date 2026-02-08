@@ -1,6 +1,6 @@
-# 米家设备管理器（Claude Code Skill）
+# 米家设备管理器
 
-管理和控制小米/米家智能家居设备的 Claude Code 技能，支持设备发现、开关控制、亮度调节、颜色设置等功能。
+管理和控制小米/米家智能家居设备的 Skill，兼容 openclaw 或 Claude Code 等智能体环境，支持设备发现、开关控制、亮度调节、颜色设置等功能。
 
 ## 功能特性
 
@@ -20,21 +20,21 @@
 
 ## 如何安装这个技能
 
-将本仓库放入 Claude Code 的技能目录即可使用：
+将本仓库放入技能目录即可使用：
 
 ```bash
-git clone https://github.com/dean2021/mijia-device-manager ~/.claude/skills/mijia-device-manager
+git clone https://github.com/dean2021/mijia-device-manager ~/.openclaw/skills/mijia-device-manager
 ```
 
 如果是手动下载压缩包，解压后将目录移动到：
 
 ```
-~/.claude/skills/mijia-device-manager
+~/.openclaw/skills/mijia-device-manager
 ```
 
-## 在 Claude Code 中触发使用
+## 在 openclaw 中触发使用
 
-在 Claude Code 对话中，直接用自然语言描述你要控制的米家设备。只要需求包含“控制设备”“查询设备列表/状态”“调节亮度/颜色/色温”等意图，就会触发该技能。
+在 openclaw 对话中，直接用自然语言描述你要控制的米家设备。只要需求包含“控制设备”“查询设备列表/状态”“调节亮度/颜色/色温”等意图，就会触发该技能。
 
 **推荐触发方式**
 
